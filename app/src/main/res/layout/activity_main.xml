@@ -1,0 +1,24 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="repoData"
+            type="vj.android.com.mvvmarchitecture.viewmodel.RepoViewModel" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.MainActivity">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/repo_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adapter="@{repoData.adapter}"
+            android:data="@{repoData.data}" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

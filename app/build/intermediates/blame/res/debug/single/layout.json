@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Vijay\\Workspace\\MVVMArchitecture\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Vijay\\Workspace\\MVVMArchitecture\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Vijay\\Workspace\\MVVMArchitecture\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\repo_adapter_layout.xml",
+        "source": "D:\\Vijay\\Workspace\\MVVMArchitecture\\app\\src\\main\\res\\layout\\repo_adapter_layout.xml"
+    }
+]
