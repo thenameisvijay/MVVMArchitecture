@@ -1,5 +1,6 @@
 package vj.android.com.mvvmarchitecture.viewmodel;
 
+import android.arch.lifecycle.MutableLiveData;
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 import android.support.annotation.NonNull;
@@ -51,6 +52,7 @@ public class RepoViewModel extends BaseObservable {
             @Override
             public void onUserListReceived(List<GitHubRepo> users) {
                 // Return response to callback
+                MutableLiveData<Boolean> isLoading = new MutableLiveData<>();
                 callback.onUserListReceived(users);
                 for (int i = 0; i < users.size(); i++) {
                     GitHubRepo gitHubRepo = new GitHubRepo();

@@ -19,5 +19,12 @@ public class CommonUtils {
         dialogBuilder.setCancelable(isCancellable);
         alertDialog = dialogBuilder.create();
         alertDialog.show();
+        if (alertDialog.getWindow() != null)
+            alertDialog.getWindow().setLayout(350, 350);
+    }
+
+    public static void hideProgressBar(Context context) {
+        if (alertDialog.isShowing())
+            alertDialog.dismiss();
     }
 }

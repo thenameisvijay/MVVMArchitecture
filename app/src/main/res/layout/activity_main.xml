@@ -20,5 +20,15 @@
             android:adapter="@{repoData.adapter}"
             android:data="@{repoData.data}" />
 
+        <!--
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/repo_rv_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adapter="@{repoData.adapter}"
+                    android:data="@{repoData.data}"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+        -->
+
     </android.support.constraint.ConstraintLayout>
 </layout>
